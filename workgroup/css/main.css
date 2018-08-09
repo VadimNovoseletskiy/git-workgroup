@@ -1,0 +1,432 @@
+/*@import url(css/base.css);*/
+/*@import url(css/inner.css);*/
+/*@import url(css/profle.css);*/
+/* далее идут обычные CSS-правила */
+
+.mainName{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size:1.4em;
+}
+
+.mainName1{font-size:0.9em;}
+
+.mainName2{
+  padding-bottom: 1em;
+  font-size:0.9em;
+}
+
+.m-bg1{
+ background:#000 url('../image/bg.jpg') no-repeat top center;
+ max-width: 100%;
+ background-size: cover;
+ -webkit-background-size:cover ;
+ -moz-background-size:cover ;
+ height: 250px;
+}
+
+.m-bg2{background-color:#7E7E7E;}
+
+ .table-text-l{
+  font-weight: bold;
+  text-align: left;
+  font-size: 0.8em;
+  padding-left: 0.5em;
+}
+
+.table-text-c{
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.col-w{color: white;}
+
+.m-bg2-red{background-color:#AB1723 }
+
+ .calculation-tel{
+  padding-top: 0.9em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.m-tel{
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  font-size:1.1em;
+}
+
+.i-name{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.i-text{
+	display: inline-block;
+	width: 70%;
+	font-size: 1em;
+}
+
+.icon1{width: 20%;}
+.icon2{width: 20%;}
+.icon3{width: 20%;}
+.icon4{width: 20%;}
+.icon5{width: 20%;}
+.icon6{width: 20%;}
+
+@media only screen and (min-width : 280px) and (max-width : 479px){
+
+  /*main*/
+
+  /* end main kod*/
+}
+
+@media only screen and (min-width : 480px) and (max-width : 629px){
+ 	/*main kod*/
+	    .m-bg2-red{margin-bottom: 1em;}
+
+	  	.i-text{
+			text-align: left;
+			padding-left: 1em;
+	  	}
+
+		.block-icon{
+			display: inline-block;
+	  		vertical-align: middle;
+	  		width: 60%;
+	  		margin-bottom: 1em;
+		}
+
+	    .icon1{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 15%;
+	    }
+
+	    .icon2{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 15%;
+	    }
+
+	    .icon3{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 15%;
+	    }
+
+	    .icon4{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 15%;
+	    }
+
+	    .icon5{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 15%;
+	    }
+
+	    .icon6{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 15%;
+	    }
+  	/* end main kod*/
+
+}
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+    /*main kod*/
+	    .m-bg2-red{margin-bottom: 1em;}
+
+	    .i-text{
+			text-align: left;
+			padding-left: 1em;
+	  	}
+
+		.block-icon{
+			display: inline-block;
+	  		vertical-align: middle;
+	  		width: 60%;
+	  		margin-bottom: 1em;
+
+		}
+
+	    .icon1{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 12%;
+	    }
+
+	    .icon2{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 12%;
+	    }
+
+	    .icon3{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 12%;
+	    }
+
+	    .icon4{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 12%;
+	    }
+
+	    .icon5{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 12%;
+	    }
+
+	    .icon6{
+	    	display: inline-block;
+	    	vertical-align: middle;
+	      	width: 12%;
+	    }
+  /* end main kod*/
+
+}
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+  /*main kod*/
+  		.i-menu{margin-top: 1.5em;}
+
+	    .mainName{font-size:1.6em;}
+
+	    .i-text{
+			text-align: left;
+			padding-left: 1em;
+	  	}
+  /*end main kod*/
+}
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+  /*main kod*/
+
+	    .mainName{font-size: 1.7em}
+
+	    .mainName1{font-size:1em;}
+
+	    .mainName2{font-size:1em;}
+
+	    .table-text-l{font-size: 0.9em;}
+
+	    .calculation-tel{
+	      padding-top: 0.7em;
+	      font-size: 1.2em;
+	    }
+
+	    .m-tel{font-size:1.3em;}
+
+		.i-menu{margin-top: 1.5em;}
+
+	    .i-text{
+			text-align: center;
+			padding-left: 1em;
+	  	}
+  /*main kod*/
+}
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  /*main kod */
+
+	    .calculation-tel{
+	      padding-top: 0.5em;
+	      font-size: 1.6em;
+	    }
+
+	    .m-tel{
+	      padding-bottom: 0.8em;
+	      font-size:1.6em;
+	  	}
+
+	    .i-menu{margin-top: 1.5em;}
+
+	    .i-text{
+			text-align: center;
+			padding-left: 1em;
+	  	}
+	/* end main kod */
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  	/*main kod */
+	    .mainName1{font-size:1.2em;}
+
+	    .mainName2{font-size:1.1em;}
+
+	    .calculation-tel{
+	      padding-top: 0.5em;
+	      font-size: 1.6em;
+	    }
+
+	    .m-tel{
+	      padding-bottom: 0.8em;
+	      font-size:1.6em;
+	  	}
+
+	     .i-menu{margin-top: 1.5em;}
+
+	    .i-text{
+			text-align: center;
+			padding-left: 1em;
+	  	}
+	/*end main kod */
+}
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  /*main kod */
+  	.mainName{
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+  		font-size:1.9em;
+  		font-weight: bold;}
+
+    .mainName1{font-size:1.3em;}
+
+    .mainName2{font-size:1.3em;}
+
+    .calculation-tel{
+      padding-top: 0.5em;
+      font-size: 1.6em;
+    }
+
+    .m-tel{
+      padding-bottom: 0.8em;
+      font-size:1.6em;
+  	}
+
+    .i-menu{margin-top: 1.5em;}
+
+    .i-text{
+		width: 80%;
+		text-align: center;
+  	}
+  /*end main kod */
+}
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  /*main kod */
+    .mainName1{font-size:1.3em;}
+
+    .m-bg2{background-color:#7E7E7E;}
+
+    .m-tel{
+      padding-bottom: 0.8em;
+      font-size:1.6em;
+  	}
+
+    .i-menu{
+     margin-top: 2em;
+     margin-bottom: 2em;
+    }
+
+	.i-name{font-size: 1.5em;}
+
+    .i-text{
+		width: 90%;
+		font-size: 1.2em;
+		text-align: center;
+  	}
+ /*end main kod */
+
+
+
+
+
+}/* (min-width : 1379px) and (max-width : 1920px)  */
+
+
+
+
+
+

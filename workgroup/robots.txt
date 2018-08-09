@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:
+
+User-agent: Googlebot
+Host: www.workgroup.in.ua
+Sitemap: http://workgroup.in.ua/
+
+User-agent: Googlebot-Mobile
+Host: www.workgroup.in.ua
+Sitemap: http://workgroup.in.ua/
+

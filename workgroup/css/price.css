@@ -1,0 +1,193 @@
+.h-bg-price{
+	background:#000 url('../image/price.jpg') no-repeat top center;
+	max-width: 100%;
+	background-size: cover;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	height: 14.2em;
+}
+
+.name {
+	margin-top: 2em;
+	font-weight: bold;
+}
+
+.name-price{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+table{
+	width: 100%;
+	margin-top: 2em;
+}
+
+.table-string{
+	background-color:#474A5F;
+	color:white;
+	font-size: 1.2em;
+}
+
+.table-cols{
+	text-align: left;
+	padding-left: 1em;
+}
+
+caption{
+	color: #AB1723;
+	text-align: center;
+}
+
+
+
+@media only screen and (min-width : 280px) and (max-width : 479px){
+
+	.name {
+		font-size: 0.7em;
+	}
+
+	table{
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	caption{
+	font-size: 0.9em;
+	}
+
+	.table-string{
+		background-color:#474A5F;
+		color:white;
+		font-size: 0.9em;
+	}
+
+	td{
+		font-size: 0.7em;
+	}
+
+	.h-bg-price{
+		height: 8em;
+	}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 629px){
+	.name {
+		font-size: 0.75em;
+	}
+
+	table{
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	caption{
+	font-size: 1	em;
+	}
+
+	.table-string{
+		background-color:#474A5F;
+		color:white;
+		font-size: 0.9em;
+	}
+
+	td{
+		font-size: 0.8em;
+	}
+
+	.h-bg-price{
+		height: 9em;
+	}
+}
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+	.name {
+		font-size: 0.75em;
+	}
+
+	table{
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	caption{
+	font-size: 1.2em;
+	}
+
+	.table-string{
+		background-color:#474A5F;
+		color:white;
+		font-size: 0.9em;
+	}
+
+	td{
+		font-size: 0.8em;
+	}
+
+	.h-bg-price{
+		height: 10em;
+	}
+}
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+	.name {
+		font-size: 0.8em;
+	}
+
+	table{
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	caption{
+	font-size: 1.2em;
+	}
+
+	.table-string{
+		background-color:#474A5F;
+		color:white;
+		font-size: 1em;
+	}
+
+	td{
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+	.name {
+		font-size: 0.9em;
+	}
+
+	table{
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	caption{
+	font-size: 1.2em;
+	}
+
+	.table-string{
+		background-color:#474A5F;
+		color:white;
+		font-size: 1em;
+	}
+
+	td{
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+}
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+}

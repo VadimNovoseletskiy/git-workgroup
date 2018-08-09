@@ -1,0 +1,946 @@
+
+/*block apartment*/
+
+.h-bg-rel{
+	background:#000 url('../image/relocation.jpg') no-repeat top center;
+	max-width: 100%;
+	background-size: cover;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	height: 14.2em;
+}
+
+.apartment-bg{
+ background:#000 url('../image/apartment.jpg') no-repeat top center;
+ max-width: 100%;
+ height: 452px;
+ background-size: cover;
+ -webkit-background-size:cover ;
+ -moz-background-size:cover ;
+}
+
+.office-bg{
+ background:#000 url('../image/office1.jpg') no-repeat top center;
+ max-width: 100%;
+ background-size: cover;
+ -webkit-background-size:cover ;
+ -moz-background-size:cover ;
+ height: 450px;
+}
+
+.button{
+	width: 20%;
+	font-size: 0.7em;
+	margin-top: 1em;
+
+	color: black;
+	background-color:#FDCD3D;
+	border: 2px solid #C19C2E;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+}
+
+.button>a{color: black;}
+
+.button-ap>a{color: black;}
+
+.button-ap-of>a{color: black;}
+
+.plan{
+	font-size: 1.2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.icon-ap{
+	vertical-align:middle;
+	width: 7%;
+}
+
+.how-work{
+	width: 70%;
+	font-size: 0.9em;
+	margin-left: 1em;
+
+	vertical-align:middle;
+	display: inline-block;
+	text-align: center;
+}
+
+.ap-name{
+	font-size: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	text-align:center;
+	font-weight: bold;
+}
+
+
+/*текстовый слайдер*/
+
+.menu-text-slider{
+	width: 100%;
+	height: 3em;
+	border: 0.15em solid #D5D5D5;
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 4px;
+	text-align: center;
+	background-color: white;
+}
+
+label{
+	font-size: 1em;
+
+	padding-top: 0.5em;
+	padding-right: 0.2em;
+	padding-left: 0.2em;
+	padding-bottom: 0.5em;
+
+	color:black;
+	text-align: center;
+	font-family: arial;
+
+	-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+	-o-transition: all 0.3s 0.01s ease;
+	-webkit-transition: all 0.3s 0.01s ease;
+}
+
+.all input{display: none;}
+
+.menu-text-slider-main{text-align: center;}
+
+.modal{
+	background: #fff;
+	width:100%;
+	border-radius: 5px;
+	box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.text-on{
+	font-size: 0.8em;
+	padding-left: 1em;
+	padding-right:  1em;
+
+	background:#f7f7f7;
+	border:1px solid #D5D5D5;
+	display: block;
+	text-align:left;
+ }
+
+.ap-price{
+	font-size: 1.3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.button-ap{
+	width: 20%;
+	font-size: 1em;
+	margin-left:1em;
+	margin-bottom: 0.5em;
+
+	text-align: center;
+	display: inline-block;
+	background-color:#FDCD3D;
+	border: 2px solid #C19C2E;
+}
+
+.button-ap-of{
+	width: 20%;
+	font-size: 1.2em;
+	margin-top:1em;
+	margin-left:1em;
+
+	text-align: center;
+	display: inline-block;
+	background-color:#FDCD3D;
+	border: 2px solid #C19C2E;
+}
+
+.icon-about{width: 32%;}
+.icon-about1{width: 27%;}
+.icon-about2{width: 30%;}
+.icon-about3{width: 27%;}
+.icon-about4{width: 33%;}
+
+:checked+span {
+display: inline-block;
+font-weight: bold;
+text-align: center;}
+/*block apartment*/
+
+@media only screen and (min-width : 280px) and (max-width : 479px){
+
+  	/*block apartment*/
+
+	  	.apartment-bg{
+ 			height: auto;
+ 			background: white;
+	  	}
+
+	  	.office-bg{
+			height: auto;
+ 			background: white;
+	  	}
+
+	  	.button{
+			width: 50%;
+			font-size: 0.7em;
+		}
+
+	  	.icon-ap{width: 10%;}
+
+	  	.about{margin-top: 2em;}
+
+		.about-text{
+			vertical-align: middle;
+			font-size: 1em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;}
+
+		.icon-about{
+			display: inline-block;
+			width: 14%;
+			vertical-align: middle;}
+
+		.icon-about1{
+			width: 14%;
+			vertical-align: middle;
+			display: inline-block;}
+
+		.icon-about2{
+			width: 14%;
+			vertical-align: middle;
+			display: inline-block;}
+
+		.icon-about3{
+			width: 14%;
+			vertical-align: middle;
+			display: inline-block;}
+
+		.icon-about4{
+			width: 14%;
+			vertical-align: middle;
+			display: inline-block;}
+
+		.h-bg-rel{height: 8em;}
+
+		.how-work{width: 70%;}
+
+	  /*текстовый слайдер*/
+
+	  	.menu-text-slider{
+		  width: 60%;
+		  border: 0.15em solid #D5D5D5;
+		  height: 2.5em;
+		}
+
+		.ap-price{font-size: 1.3em;}
+
+		.button-ap{width: 60%;}
+
+		.button-ap-of{width: 60%;}
+	/*block apartment*/
+}
+
+@media only screen and (min-width : 480px) and (max-width : 630px){
+ 	/*block apartment*/
+ 		.apartment-bg{
+			height: auto;
+ 			background: white;
+ 		}
+
+	  	.office-bg{
+			height: auto;
+ 			background: white;
+	  	}
+
+	  	.button{width:45%;}
+
+		.icon-ap{width: 10%;}
+
+	  	.about{margin-top: 2em;}
+
+		.about-text{
+			vertical-align: middle;
+			font-size: 1.3em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+
+		.icon-about{
+			display: inline-block;
+			width: 10%;
+			vertical-align: middle;
+		}
+
+		.icon-about1{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.icon-about2{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.icon-about3{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.icon-about4{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.how-work{
+			width: 70%;
+			font-size: 1em;
+		}
+
+	  .ap-name{ font-size: 2em;}
+
+	  	.h-bg-rel{height: 10em;}
+
+	  /*текстовый слайдер*/
+
+		  .menu-text-slider{
+			  width: 50%;
+			  border: 0.15em solid #D5D5D5;
+			  height: 3em;
+			}
+
+	  		label{font-size: 1.26em;}
+
+
+			.text-on{
+			 	font-size: 1em;
+				margin-top: 1em;
+				padding-top: 0.5em;
+			}
+
+			.ap-price{font-size: 1.6em;}
+
+			.button-ap{
+			  width:45%;
+			  font-size: 1.3em;
+			  height: 2em;
+			  padding-top: 0.3em;
+			  margin-top:0.5em;
+			  margin-bottom: 1em;
+			}
+
+			.button-ap-of{
+			  font-size: 1.3em;
+			  width:45%;
+			  height: 2em;
+			  padding-top: 0.3em;
+			  margin-top:0.5em;
+			  margin-bottom: 1em;
+			}
+	/*block apartment*/
+}
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+    /*block apartment*/
+
+    	.apartment-bg{
+			height: auto;
+ 			background: white;
+    	}
+
+	  	.office-bg{
+	  		height: auto;
+ 			background: white;
+	  	}
+
+	  	.button{width: 42%;}
+
+	  	.icon-ap{width: 10%;}
+
+	  	.about{margin-top: 2em;}
+
+		.about-text{
+			vertical-align: middle;
+			font-size: 1.3em;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+
+		.icon-about{
+			display: inline-block;
+			width: 10%;
+			vertical-align: middle;
+		}
+
+		.icon-about1{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.icon-about2{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.icon-about3{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.icon-about4{
+			width: 10%;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		.how-work{
+			width: 70%;
+			font-size: 1em;
+		}
+
+	  .ap-name{padding-left: 2em;}
+
+
+	  /*текстовый слайдер*/
+
+	  		.menu-text-slider{
+			  width: 50%;
+			  border: 0.15em solid #D5D5D5;
+
+			  margin-top: 1em;
+			  padding-top: 0.5em;
+			  padding-bottom: 0.5em;
+			}
+
+		   label{font-size: 1.26em;}
+
+			.text-on{font-size: 0.8em; }
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  font-size: 1.5em;
+			}
+
+			.button-ap{
+			  width: 30%;
+			  font-size: 1.6em;
+			  margin-top:0.5em;
+			  margin-bottom:0.5em;
+			}
+
+			.button-ap-of{
+			  width: 30%;
+			  font-size: 1.6em;
+			  margin-top:0.5em;
+			  margin-bottom:0.5em;
+			}
+	/*block apartment*/
+
+}
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+  /*block apartment*/
+
+	  	.h-bg-rel{height: 15em;}
+
+	 	 .button{
+		    width: 60%;
+			font-size: 0.8em;
+		}
+
+	  	.icon-ap{width: 40%;}
+
+		.about{margin-top: 2em;}
+
+		.about-text{font-size: 1em;}
+
+		.how-work{
+			width: 100%;
+			font-size: 0.8em;
+		}
+
+	  .ap-name{
+		    padding-left: 2em;
+		    font-size: 1.9em;
+		}
+
+		.myImage{display: none;}
+
+	  /*текстовый слайдер*/
+
+		  .menu-text-slider{
+			  width: 100%;
+			  height: 2em;
+			}
+
+		  label {font-size: 0.9em;}
+
+		  .menu-text-slider-main{
+		   margin-top:5em;}
+
+			input+span{
+			width: 100%;
+			display: inline-block;
+			}
+
+			.text-on{font-size: 0.9em; }
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  font-size: 1em;
+			}
+
+			.button-ap{
+			  width: 100%;
+			  font-size: 0.9em;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+			.button-ap-of{
+			  font-size: 0.9em;
+			  width: 80%;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+	/*block apartment*/
+}
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+  /*block apartment*/
+  		.h-bg-rel{height: 15em;}
+
+	  	.button{
+			width: 50%;
+			font-size: 0.8em;
+		}
+
+		.icon-ap{width: 30%;}
+
+		.about{margin-top: 2em;}
+
+		.about-text{font-size: 1em;}
+
+	 	.ap-name{font-size: 1.9em;}
+
+	    .myImage{display: none;}
+
+	  /*текстовый слайдер*/
+
+		  	.menu-text-slider{
+			  width: 100%;
+			  height: 1.8em;
+			}
+
+		  	label{font-size: 1em;}
+
+			input+span{
+				width: 100%;
+				display: inline-block;
+			}
+
+			.menu-text-slider-main{margin-top:5em;}
+
+			.text-on{font-size: 0.9em; }
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  font-size: 1.1em;
+			}
+
+			.button-ap{
+			  width: 100%;
+			  font-size: 1em;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+			.button-ap-of{
+			  font-size: 1em;
+			  width: 80%;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+	/*block apartment*/
+}
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  /*block apartment*/
+
+  	  	.h-bg-rel{ height: 14em;}
+
+	  	.button{
+			width: 50%;
+			font-size: 0.9em;
+		}
+
+	  	.icon-ap{width: 30%;}
+
+		.about{margin-top: 2em;}
+
+		.about-text{font-size: 1em;}
+
+	  	.ap-name{font-size: 2.2em;}
+
+	   	.myImage{display: none;}
+
+	  /*текстовый слайдер*/
+
+		  	.menu-text-slider{
+			  width: 100%;
+			  height: 2em;
+			}
+
+		  	label {font-size: 1.1em;}
+
+		 	input+span{
+			  	display: inline-block;
+			  	width: 100%;
+			  	margin-top: 0.2em;
+		  	}
+
+			.menu-text-slider-main{margin-top:5em;}
+
+			.text-on{font-size: 1em; }
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  font-size: 1.1em;
+			}
+
+			.button-ap{
+			  width: 100%;
+			  font-size: 1.2em;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+			.button-ap-of{
+			  font-size: 1.2em;
+			  width: 80%;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+	/*block apartment*/
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+/*block apartment*/
+		.h-bg-rel{height: 14.5em;}
+
+	  	.button{
+			width: 50%;
+			font-size: 0.9em;
+		}
+
+	  	.icon-ap{width: 30%;}
+
+		.about{margin-top: 2em;}
+
+		.about-text{font-size: 1.2em;}
+
+	  .ap-name{font-size: 2em;}
+
+	 	 .apartment-bg{
+	     background:#000 url('../image/apartment.jpg') no-repeat top center;
+	     max-width: 100%;
+	     background-size: cover;
+	     -webkit-background-size:cover ;
+	     -moz-background-size:cover ;
+	     height: 600px;
+	 	}
+
+	    .myImage{display: none;}
+
+	  /*текстовый слайдер*/
+
+		  .menu-text-slider{
+			  height: 1.8em;
+			  width: 100%;
+			}
+
+		  	label{font-size: 1.1em;}
+			  .menu-text-slider-main{
+			   margin-top:5em;
+			}
+
+		  	input+span{
+			  	display: inline-block;
+			  	width: 100%;
+		  	}
+
+			.text-on{font-size: 1em; }
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  font-size: 1.3em;
+			}
+
+			.button-ap{
+			  width: 100%;
+			  font-size: 1.2em;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+			.button-ap-of{
+			  font-size: 1.2em;
+			  width: 80%;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+
+	/*block apartment*/
+}
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  /*block apartment*/
+
+  	  	.h-bg-rel{height: 14.2em;}
+
+	  	.button{
+			width: 50%;
+			font-size: 0.9em;
+		}
+
+		.icon-ap{width: 30%;}
+
+		.about{margin-top: 2em;}
+
+		.about-text{font-size: 1.2em;}
+
+
+	  .ap-name{font-size: 3em;}
+
+
+
+	   .myImage{display: none;}
+
+	  /*текстовый слайдер*/
+
+		  .menu-text-slider{
+			 padding-bottom: 1.5em;
+			 height: 2em;
+			  width: 100%;
+			}
+
+		  	input+span{
+			  	margin-top: 0.2em;
+			  	display: inline-block;
+			  	width: 100%;
+		  	}
+
+		  	.menu-text-slider-main{margin-top:5em;}
+
+			.text-on{
+			 padding-left: 1em;
+			 padding-right:  1em;
+			 background:#f7f7f7;
+			 border:1px solid #D5D5D5;
+			 display: block;
+			  text-align:left;
+			}
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  font-size: 1.3em;
+			}
+
+			.button-ap{
+			  width: 100%;
+			  font-size: 1.2em;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+
+			.button-ap-of{
+			  font-size: 1.2em;
+			  width: 80%;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+	/*block apartment*/
+}
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  /*block apartment*/
+  	  	.h-bg-rel{height: 14.2em;}
+
+	  	.button{
+			width: 50%;
+			font-size: 0.9em;
+		}
+
+	  	.icon-ap{width: 30%;}
+
+		.about{margin-top: 2em;}
+
+		.about-text{font-size: 1.2em;}
+
+		.ap-name{font-size: 3em;}
+
+	    .myImage{display: none;}
+
+	  /*текстовый слайдер*/
+
+		  	.menu-text-slider{width: 100%;}
+
+		  	label { font-size: 1.26em;}
+
+		 	.menu-text-slider-main{margin-top:5em;}
+
+			.text-on{font-size: 1.1em; }
+
+			.ap-price{
+			  margin-top: 1em;
+			  margin-bottom: 1em;
+			  width: 100%;
+			  font-size: 1.1em;
+			}
+
+			.button-ap{
+			  font-size: 1.2em;
+			  width: 100%;
+			  margin-top:0.9em;
+			}
+
+			.button-ap-of{
+			  font-size: 1.2em;
+			  width: 80%;
+			  margin-top:1em;
+			  margin-left:1em;
+			}
+	/*block apartment*/
+
+}/* (min-width : 1379px) and (max-width : 1920px)  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,263 @@
+.h-bg-grass{
+	background:#000 url('../image/grass.jpg') no-repeat top center;
+	max-width: 100%;
+	background-size: cover;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	height: 14.2em;
+}
+
+.points-grass{text-align: left;}
+
+.block-points-grass{margin-left: 2em; background-color: #D3D3D3;}
+
+.block-points-grass h3{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+  }
+
+ .name-grass h1{
+    font-weight: bold;
+    margin-top:  1em;
+    margin-bottom: 0.5em;
+ }
+
+ .block-points-grass ul{
+  margin-left: 2em;
+  padding-bottom:1.5em;
+ }
+
+ .name-text-grass{
+      margin-bottom:  2em;
+ }
+
+ .grass-service p{
+  text-align:justify;
+  padding-left:1em;
+  width:  95%;
+  font-size:1.1em;
+ }
+
+.service-list{
+  border:2px solid green;
+  margin-top: 1em;
+  margin-left:2em;
+  margin-bottom:1em;
+  width:90%;
+}
+
+.service-list h3{
+    font-weight: bold;
+    padding-top:1em;
+    padding-bottom:0.5em;
+}
+.service-list{
+  padding-bottom:1em;
+}
+
+.grass-service img{
+    width:45%;
+    float: left;
+}
+
+.service-grass{
+    text-align: left;
+    padding-left:2em;
+}
+
+.grass-service h4{
+  padding-top:1em;
+  padding-left:2em;
+  font-weight:bold;
+  text-align:left;
+  clear:both;
+}
+img.bruk{
+  margin-top:0.5em;
+  margin-right:1em;
+  margin-left:1em;
+}
+
+.cost-form{
+  border:2px solid red;
+  width:90%;
+  margin-left:2em;
+  font-size:1.1em;
+}
+
+.cost-form h3{
+  color:red;
+  font-weight:bold;
+  margin-top:1em;
+  margin-bottom:0.5em;
+}
+
+input{
+  height:3em;
+  margin-bottom:1em;
+}
+
+.buttonGrass input{
+  margin-top:1em;
+  width:60%;
+}
+
+.cost-form p{
+  font-weight:bold;
+}
+
+.grass-table-price{
+  display:inline-block;
+}
+
+.grass-table-price table{ color:black; border: 2px solid black; }
+.grass-table-name{background-color: #949935; }
+.grass-table-price td{padding: 0.2em; font-size:0.9em;}
+
+
+
+@media only screen and (min-width : 280px) and (max-width : 479px){
+
+  .h-bg-grass{height: 8em;}
+  .name-grass h1{font-size:1.4em;}
+  .block-points-grass{margin-left:0;}
+  .service-list{margin-left:0; width:100%}
+  .cost-form{margin-left:0; width:100%}
+  .grass-service p{font-size:0.9em;}
+  input[type="file"]{width:90%;}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 629px){
+
+  .h-bg-grass{height: 9em;}
+  .name-grass h1{font-size:1.6em;}
+  .block-points-grass{margin-left:0;}
+  .service-list{margin-left:0; width:100%}
+  .cost-form{margin-left:0; width:100%}
+
+
+}
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+
+  .name-grass h1{font-size:1.8em;}
+  .block-points-grass{margin-left:0;}
+  .service-list{margin-left:0; width:100%}
+  .cost-form{margin-left:0; width:100%}
+
+
+}
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  .h-bg-grass{height: 15em;}
+
+  .name-grass h1{font-size:1.8em;}
+
+
+
+
+}
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+
+  .h-bg-grass{height: 15em;}
+
+
+}
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  .h-bg-grass{height: 14em;}
+
+  .name-text-grass{font-size:1.1em;}
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+	.container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  .h-bg-grass{height: 14.5em;}
+  .name-text-grass{font-size:1.1em;}
+
+
+
+}
+
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+  .name-text-grass{font-size:1.3em;}
+
+}
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+  .name-text-grass{font-size:1.3em;}
+}
