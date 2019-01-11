@@ -36,7 +36,7 @@ gulp.task('sass', function(){
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browserSync
         server: { // Определяем параметры сервера
-            baseDir: '../NovoseletskiyVadim.github.io' // Директория для сервера - app
+            baseDir: './app' // Директория для сервера - app
         },
         notify: false // Отключаем уведомления
     });
@@ -44,7 +44,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 
 
 gulp.task('html',function(){
-    return gulp.src('*.html')
+    return gulp.src('app/*.html')
     .pipe(browserSync.reload({stream:true}))
 
 });
@@ -136,8 +136,3 @@ gulp.task('build',  function() {
 
 
 gulp.task('default', gulp.parallel('watch','browser-sync','sass','css-libs','scripts'));
-
-
-
-
-
