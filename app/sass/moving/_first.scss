@@ -1,0 +1,96 @@
+.h-bg-moving{
+	background:#000 url('../image/moving.jpg') no-repeat top center;
+	max-width: 100%;
+	background-size: cover;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	height: 14.2em;
+}
+
+.name-moving h1{
+    font-weight: bold;
+    margin-top:  1em;
+    margin-bottom: 0.5em;
+    color: #3e4156;
+    width: 90%; 
+    display: inline-block;
+}
+
+.name-text-moving{
+    margin-bottom:  2em;
+    font-weight: bold;
+    color: #3e4156;
+    width: 90%;
+    font-size:1em;
+    display: inline-block;
+}
+
+
+
+.avto img{
+    margin-top: 1em;
+    height: 9em;
+}
+
+h3{
+    margin-top:1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ab1723;
+
+}
+
+
+.avto p{
+    margin-top: 1em;
+    font-weight:bold;
+    font-size:1.1em;
+    color: #3e4156;
+}
+
+.avto button{
+    background-color: darkorange;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-top: 1.3em;
+    width: 30%;
+}
+
+.button{
+	width: 50%;
+	font-size: 1.2em;
+	margin-top: 1.3em;
+
+	background-color:darkorange;;
+	border: 2px solid #C19C2E;
+	// font-weight: bold;
+	display: inline-block;
+	text-align: center;
+}
+
+.button>a{
+    color: black;
+    display: inline-block;
+    width: 90%;
+    height:2em;
+    padding: 0.5em;
+
+}
+
+
+
+.andText p{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3e4156;
+}
+
+.avtoGazel{width: 20%;}
+
+.avtoZil{width: 20%;}
+
+.avtoKamaz{width: 20%}
+
+.avtoMan{width: 20%;}

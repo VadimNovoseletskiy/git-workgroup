@@ -1,0 +1,403 @@
+.h-bg-moving {
+  background: #000 url("../image/moving.jpg") no-repeat top center;
+  max-width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: 14.2em; }
+
+.name-moving h1 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #3e4156;
+  width: 90%;
+  display: inline-block; }
+
+.name-text-moving {
+  margin-bottom: 2em;
+  font-weight: bold;
+  color: #3e4156;
+  width: 90%;
+  font-size: 1em;
+  display: inline-block; }
+
+.avto img {
+  margin-top: 1em;
+  height: 9em; }
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ab1723; }
+
+.avto p {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #3e4156; }
+
+.avto button {
+  background-color: darkorange;
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin-top: 1.3em;
+  width: 30%; }
+
+.button {
+  width: 50%;
+  font-size: 1.2em;
+  margin-top: 1.3em;
+  background-color: darkorange;
+  border: 2px solid #C19C2E;
+  display: inline-block;
+  text-align: center; }
+
+.button > a {
+  color: black;
+  display: inline-block;
+  width: 90%;
+  height: 2em;
+  padding: 0.5em; }
+
+.andText p {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #3e4156; }
+
+.avtoGazel {
+  width: 20%; }
+
+.avtoZil {
+  width: 20%; }
+
+.avtoKamaz {
+  width: 20%; }
+
+.avtoMan {
+  width: 20%; }
+
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+  .name-moving h1 {
+    font-size: 1.4em; }
+  .name-text-moving {
+    font-size: 1em; }
+  .andText p {
+    font-size: 1.1em; }
+  .avtoGazel {
+    width: 50%; }
+  .avtoZil {
+    width: 50%; }
+  .avtoKamaz {
+    width: 60%; }
+  .avtoMan {
+    width: 50%; }
+  .button {
+    width: 50%; } }
+
+@media only screen and (min-width: 480px) and (max-width: 629px) {
+  .name-moving h1 {
+    font-size: 1.6em; }
+  .name-text-moving {
+    font-size: 1.2em; }
+  .andText p {
+    font-size: 1.2em; }
+  .avtoGazel {
+    width: 35%; }
+  .avtoZil {
+    width: 35%; }
+  .avtoKamaz {
+    width: 35%; }
+  .avtoMan {
+    width: 35%; }
+  .avto button {
+    width: 35%; }
+  .button {
+    width: 35%; } }
+
+@media only screen and (min-width: 630px) and (max-width: 767px) {
+  .name-moving h1 {
+    font-size: 1.8em; }
+  .name-text-moving {
+    font-size: 1.4em; }
+  .andText p {
+    font-size: 1.3em; }
+  .avtoGazel {
+    width: 30%; }
+  .avtoZil {
+    width: 30%; }
+  .avtoKamaz {
+    width: 35%; }
+  .avtoMan {
+    width: 30%; }
+  .avto button {
+    width: 35%; }
+  .button {
+    width: 35%; } }
+
+@media only screen and (min-width: 767px) and (max-width: 849px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .h-bg-moving {
+    height: 15em; }
+  .name-moving h1 {
+    font-size: 1.8em; }
+  .andText p {
+    font-size: 1.3em; }
+  .name-moving h1 {
+    font-size: 1.8em; }
+  .name-text-moving {
+    font-size: 1.4em; }
+  .andText p {
+    font-size: 1.3em; }
+  .avtoGazel {
+    width: 90%; }
+  .avtoZil {
+    width: 90%; }
+  .avtoKamaz {
+    width: 90%; }
+  .avtoMan {
+    width: 90%; }
+  .button {
+    width: 80%; } }
+
+@media screen and (min-width: 850px) and (max-width: 991px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .h-bg-moving {
+    height: 15em; }
+  .name-moving h1 {
+    font-size: 1.8em; }
+  .name-text-moving {
+    font-size: 1.4em; }
+  .andText p {
+    font-size: 1.5em; }
+  .name-moving h1 {
+    font-size: 1.8em; }
+  .andText p {
+    font-size: 1.3em; }
+  .avtoGazel {
+    width: 90%; }
+  .avtoZil {
+    width: 90%; }
+  .avtoKamaz {
+    width: 90%; }
+  .avtoMan {
+    width: 90%; }
+  .button {
+    width: 70%; } }
+
+@media screen and (min-width: 991px) and (max-width: 1023px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .h-bg-moving {
+    height: 14em; }
+  .name-moving h1 {
+    font-size: 1.9em; }
+  .name-text-moving {
+    font-size: 1.5em; }
+  .andText p {
+    font-size: 1.3em; }
+  .avtoGazel {
+    width: 70%; }
+  .avtoZil {
+    width: 70%; }
+  .avtoKamaz {
+    width: 70%; }
+  .avtoMan {
+    width: 70%; }
+  .avto button {
+    width: 70%; }
+  .button {
+    width: 70%; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .h-bg-moving {
+    height: 14.5em; }
+  .name-text-moving {
+    font-size: 1.5em; }
+  .name-moving h1 {
+    font-size: 1.8em; }
+  .name-text-moving {
+    font-size: 1.5em; }
+  .andText p {
+    font-size: 1.3em; }
+  .avtoGazel {
+    width: 60%; }
+  .avtoZil {
+    width: 60%; }
+  .avtoKamaz {
+    width: 60%; }
+  .avtoMan {
+    width: 60%; }
+  .avto button {
+    width: 60%; }
+  .button {
+    width: 60%; } }
+
+@media only screen and (min-width: 1199px) and (max-width: 1379px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-snow h1 {
+    font-size: 1.9em; }
+  .name-text-moving {
+    font-size: 1.6em; }
+  .avtoGazel {
+    width: 60%; }
+  .avtoZil {
+    width: 60%; }
+  .avtoKamaz {
+    width: 60%; }
+  .avtoMan {
+    width: 60%; }
+  .avto button {
+    width: 60%; }
+  .button {
+    width: 60%; } }
+
+@media only screen and (min-width: 1379px) and (max-width: 1920px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-moving h1 {
+    font-size: 1.9em; }
+  .name-text-moving {
+    font-size: 1.6em; }
+  .button {
+    width: 60%; } }
