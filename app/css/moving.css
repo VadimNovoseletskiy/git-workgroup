@@ -1,10 +1,16 @@
 .h-bg-moving {
-  background: #000 url("../image/moving.jpg") no-repeat top center;
+  background: #000 url("../image/constructionGarbage.jpg") no-repeat top center;
   max-width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   height: 14.2em; }
+
+.name-moving-header {
+  color: white;
+  font-size: 1.6em;
+  padding-top: 0.2em;
+  font-weight: bold; }
 
 .name-moving h1 {
   font-weight: bold;
@@ -28,6 +34,7 @@
 
 h3 {
   margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 1.2em;
   font-weight: bold;
   color: #ab1723; }
@@ -63,6 +70,8 @@ h3 {
 
 .andText p {
   padding-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   padding-bottom: 2em;
   font-size: 1.8em;
   font-weight: bold;
@@ -80,19 +89,38 @@ h3 {
 .avtoMan {
   width: 20%; }
 
+.name-moving1 h2 {
+  margin-top: 2em;
+  padding: 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #3e4156;
+  display: inline-block;
+  width: 90%;
+  line-height: 1.2em; }
+
+.heightBlockImage {
+  height: 10em;
+  overflow: hidden; }
+
 @media only screen and (min-width: 280px) and (max-width: 479px) {
   .name-moving h1 {
     font-size: 1.4em; }
+  .name-moving-header {
+    font-size: 1.3em;
+    padding-top: 0.4em; }
   .name-text-moving {
     font-size: 1em; }
   .andText p {
     font-size: 1.1em; }
-  .avtoGazel {
-    width: 50%; }
+  .avtoGazel1 {
+    width: 60%; }
   .avtoZil {
     width: 50%; }
   .avtoKamaz {
     width: 60%; }
+  .avtoGazel {
+    width: 50%; }
   .avtoMan {
     width: 50%; }
   .button {
@@ -100,40 +128,48 @@ h3 {
 
 @media only screen and (min-width: 480px) and (max-width: 629px) {
   .name-moving h1 {
-    font-size: 1.6em; }
+    font-size: 1.6em;
+    line-height: 1.2em; }
+  .name-moving-header {
+    font-size: 1.5em;
+    padding-top: 0.4em; }
   .name-text-moving {
     font-size: 1.2em; }
   .andText p {
     font-size: 1.2em; }
   .avtoGazel {
-    width: 35%; }
+    width: 40%; }
+  .avtoGazel1 {
+    width: 40%; }
   .avtoZil {
-    width: 35%; }
+    width: 40%; }
   .avtoKamaz {
-    width: 35%; }
+    width: 40%; }
   .avtoMan {
-    width: 35%; }
-  .avto button {
-    width: 35%; }
+    width: 40%; }
   .button {
     width: 35%; } }
 
 @media only screen and (min-width: 630px) and (max-width: 767px) {
   .name-moving h1 {
-    font-size: 1.8em; }
+    font-size: 1.8em;
+    line-height: 1.5em; }
+  .name-moving-header {
+    font-size: 1.3em;
+    padding-top: 0.4em; }
   .name-text-moving {
     font-size: 1.4em; }
   .andText p {
     font-size: 1.3em; }
   .avtoGazel {
     width: 30%; }
+  .avtoGazel1 {
+    width: 30%; }
   .avtoZil {
     width: 30%; }
   .avtoKamaz {
     width: 35%; }
   .avtoMan {
-    width: 30%; }
-  .avto button {
     width: 35%; }
   .button {
     width: 35%; } }
@@ -165,8 +201,12 @@ h3 {
     width: 100%; }
   .h-bg-moving {
     height: 15em; }
+  .name-moving-header {
+    font-size: 1.3em;
+    padding-top: 0.4em; }
   .name-moving h1 {
-    font-size: 1.8em; }
+    font-size: 1.8em;
+    line-height: 1.2em; }
   .andText p {
     font-size: 1.3em; }
   .name-moving h1 {
@@ -176,15 +216,17 @@ h3 {
   .andText p {
     font-size: 1.3em; }
   .avtoGazel {
-    width: 90%; }
+    width: 70%; }
+  .avtoGazel1 {
+    width: 70%; }
   .avtoZil {
-    width: 90%; }
+    width: 70%; }
   .avtoKamaz {
-    width: 90%; }
+    width: 70%; }
   .avtoMan {
-    width: 90%; }
+    width: 80%; }
   .button {
-    width: 80%; } }
+    width: 70%; } }
 
 @media screen and (min-width: 850px) and (max-width: 991px) {
   .container .cols.col-1 {
@@ -213,24 +255,27 @@ h3 {
     width: 100%; }
   .h-bg-moving {
     height: 15em; }
+  .name-moving-header {
+    font-size: 1.4em;
+    padding-top: 0.2em; }
   .name-moving h1 {
-    font-size: 1.8em; }
+    font-size: 1.7em; }
   .name-text-moving {
     font-size: 1.4em; }
   .andText p {
     font-size: 1.5em; }
-  .name-moving h1 {
-    font-size: 1.8em; }
   .andText p {
     font-size: 1.3em; }
   .avtoGazel {
-    width: 90%; }
+    width: 60%; }
+  .avtoGazel1 {
+    width: 60%; }
   .avtoZil {
-    width: 90%; }
+    width: 60%; }
   .avtoKamaz {
-    width: 90%; }
+    width: 70%; }
   .avtoMan {
-    width: 90%; }
+    width: 60%; }
   .button {
     width: 70%; } }
 
@@ -263,22 +308,25 @@ h3 {
     height: 14em; }
   .name-moving h1 {
     font-size: 1.9em; }
+  .name-moving-header {
+    font-size: 1.7em;
+    padding-top: 0.4em; }
   .name-text-moving {
     font-size: 1.5em; }
   .andText p {
     font-size: 1.3em; }
   .avtoGazel {
-    width: 70%; }
+    width: 60%; }
+  .avtoGazel1 {
+    width: 60%; }
   .avtoZil {
-    width: 70%; }
+    width: 60%; }
   .avtoKamaz {
-    width: 70%; }
+    width: 60%; }
   .avtoMan {
-    width: 70%; }
-  .avto button {
-    width: 70%; }
+    width: 60%; }
   .button {
-    width: 70%; } }
+    width: 60%; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .container .cols.col-1 {
@@ -307,6 +355,9 @@ h3 {
     width: 100%; }
   .h-bg-moving {
     height: 14.5em; }
+  .name-moving-header {
+    font-size: 1.7em;
+    padding-top: 0.3em; }
   .name-text-moving {
     font-size: 1.5em; }
   .name-moving h1 {
@@ -317,13 +368,13 @@ h3 {
     font-size: 1.3em; }
   .avtoGazel {
     width: 60%; }
+  .avtoGazel1 {
+    width: 60%; }
   .avtoZil {
     width: 60%; }
   .avtoKamaz {
     width: 60%; }
   .avtoMan {
-    width: 60%; }
-  .avto button {
     width: 60%; }
   .button {
     width: 60%; } }
@@ -355,20 +406,23 @@ h3 {
     width: 100%; }
   .name-snow h1 {
     font-size: 1.9em; }
+  .name-moving-header {
+    font-size: 2em;
+    padding-top: 0.4em; }
   .name-text-moving {
     font-size: 1.6em; }
   .avtoGazel {
-    width: 60%; }
+    width: 50%; }
+  .avtoGazel1 {
+    width: 50%; }
   .avtoZil {
-    width: 60%; }
+    width: 50%; }
   .avtoKamaz {
-    width: 60%; }
+    width: 50%; }
   .avtoMan {
-    width: 60%; }
-  .avto button {
-    width: 60%; }
+    width: 50%; }
   .button {
-    width: 60%; } }
+    width: 50%; } }
 
 @media only screen and (min-width: 1379px) and (max-width: 1920px) {
   .container .cols.col-1 {
@@ -397,7 +451,20 @@ h3 {
     width: 100%; }
   .name-moving h1 {
     font-size: 1.9em; }
+  .name-moving-header {
+    font-size: 2em;
+    padding-top: 0.4em; }
   .name-text-moving {
     font-size: 1.6em; }
+  .avtoGazel {
+    width: 45%; }
+  .avtoGazel1 {
+    width: 45%; }
+  .avtoZil {
+    width: 45%; }
+  .avtoKamaz {
+    width: 45%; }
+  .avtoMan {
+    width: 45%; }
   .button {
-    width: 60%; } }
+    width: 55%; } }

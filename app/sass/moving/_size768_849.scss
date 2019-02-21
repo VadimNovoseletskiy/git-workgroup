@@ -18,7 +18,12 @@
         height: 15em;
     }
 
-    .name-moving h1{font-size:1.8em;}
+    .name-moving-header{
+        font-size:1.3em;
+        padding-top: 0.4em;
+    }
+
+    .name-moving h1{font-size:1.8em; line-height: 1.2em;}
     .andText p{font-size:1.3em; }
 
 
@@ -28,15 +33,17 @@
 
     .andText p{font-size: 1.3em;}
 
-    .avtoGazel{width: 90%;}
+    .avtoGazel{width: 70%;}
 
-    .avtoZil{width: 90%;}
+    .avtoGazel1{width: 70%;}
 
-    .avtoKamaz{width: 90%}
+    .avtoZil{width: 70%;}
 
-    .avtoMan{width: 90%;}
+    .avtoKamaz{width: 70%;}
 
-    .button{width: 80%;}
+    .avtoMan{width: 80%;}
+
+    .button{width: 70%;}
 
     
 }

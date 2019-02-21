@@ -1,16 +1,16 @@
 $(document).ready(function(){
-	var sybtouch 	= $('#service-sub-touch-menu');
-	var submenu 	= $('.ServicesSubMenu');
+	var sybtouchservice 	= $('#service-sub-touch-menu');
+	var submenuservice 	= $('.ServicesSubMenu');
 
-	$(sybtouch).on('click', function(e) {
+	$(sybtouchservice).on('click', function(e) {
 		e.preventDefault();
-		submenu.slideToggle();
+		submenuservice.slideToggle();
 	});
 
 	$(window).resize(function(){
-		var w = $(window).width();
-		if(w > 767 && submenu.is(':hidden')) {
-			submenu.removeAttr('style');
+		var x = $(window).width();
+		if(x > 767 && submenu.is(':hidden')) {
+			submenuservice.removeAttr('style');
 		}
 	});
 

@@ -1,10 +1,17 @@
 .h-bg-moving{
-	background:#000 url('../image/moving.jpg') no-repeat top center;
+	background:#000 url('../image/constructionGarbage.jpg') no-repeat top center;
 	max-width: 100%;
 	background-size: cover;
 	-webkit-background-size:cover ;
 	-moz-background-size:cover ;
 	height: 14.2em;
+}
+
+.name-moving-header{
+    color: white;
+    font-size: 1.6em;
+    padding-top: 0.2em;
+    font-weight: bold;
 }
 
 .name-moving h1{
@@ -34,6 +41,7 @@
 
 h3{
     margin-top:1em;
+    margin-bottom: 1em;
     font-size: 1.2em;
     font-weight: bold;
     color: #ab1723;
@@ -81,6 +89,8 @@ h3{
 
 .andText p{
     padding-top: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     padding-bottom: 2em;
     font-size: 1.8em;
     font-weight: bold;
@@ -94,3 +104,20 @@ h3{
 .avtoKamaz{width: 20%}
 
 .avtoMan{width: 20%;}
+
+.name-moving1 h2{
+    margin-top: 2em;
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3e4156;
+    display: inline-block;
+    width: 90%;
+    line-height: 1.2em;
+
+}
+
+.heightBlockImage{
+    height: 10em;
+    overflow: hidden;
+}

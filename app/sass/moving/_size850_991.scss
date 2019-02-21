@@ -15,23 +15,28 @@
   
     .h-bg-moving{ height: 15em;}
 
-    .name-moving h1{font-size:1.8em; } 
+    .name-moving-header{
+        font-size:1.4em;
+        padding-top: 0.2em;
+    }
+
+    .name-moving h1{font-size:1.7em; } 
 
     .name-text-moving{font-size:1.4em; }
 
     .andText p{font-size: 1.5em;} 
 
-    .name-moving h1{font-size:1.8em;}
-
     .andText p{font-size: 1.3em;}
 
-    .avtoGazel{width: 90%;}
+    .avtoGazel{width: 60%;}
 
-    .avtoZil{width: 90%;}
+    .avtoGazel1{width: 60%;}
 
-    .avtoKamaz{width: 90%}
+    .avtoZil{width: 60%;}
 
-    .avtoMan{width: 90%;}
+    .avtoKamaz{width: 70%}
+
+    .avtoMan{width: 60%;}
 
     .button{width: 70%;}
 }

@@ -2,7 +2,12 @@
 
 
 
-    .name-moving h1{font-size:1.8em;}
+    .name-moving h1{font-size:1.8em;line-height: 1.5em;}
+
+    .name-moving-header{
+        font-size:1.3em;
+        padding-top: 0.4em;
+    }
 
     .name-text-moving{font-size:1.4em; }
 
@@ -10,14 +15,14 @@
 
     .avtoGazel{width: 30%;}
 
+    .avtoGazel1{width: 30%;}
+
     .avtoZil{width: 30%;}
 
     .avtoKamaz{width: 35%}
 
-    .avtoMan{width: 30%;}
-
-    .avto button{width: 35%;}
-
+    .avtoMan{width: 35%;}
+    
     .button{width: 35%;}
 }
 

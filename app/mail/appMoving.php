@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Создание формы обратной связи</title>
-<meta http-equiv="Refresh" content="4; URL=https://workgroup.in.ua/relocation.html">
+<meta http-equiv="Refresh" content="4; URL=https://workgroup.in.ua/moving.html">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>

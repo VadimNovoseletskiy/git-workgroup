@@ -1,20 +1,25 @@
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
-    .name-moving h1{font-size:1.6em;}
+    .name-moving h1{font-size:1.6em; line-height: 1.2em;}
+
+    .name-moving-header{
+        font-size:1.5em;
+        padding-top: 0.4em;
+    }
 
     .name-text-moving{font-size:1.2em; }
 
     .andText p{font-size: 1.2em;}
 
-    .avtoGazel{width: 35%;}
+    .avtoGazel{width: 40%;}
 
-    .avtoZil{width: 35%;}
+    .avtoGazel1{width: 40%;}
 
-    .avtoKamaz{width: 35%}
+    .avtoZil{width: 40%;}
 
-    .avtoMan{width: 35%;}
+    .avtoKamaz{width: 40%}
 
-    .avto button{width: 35%;}
+    .avtoMan{width: 40%;}
 
     .button{width: 35%;}
 }

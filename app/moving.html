@@ -62,7 +62,7 @@
 			<div class="cols col-5 h-bg2">
 				<div class="row">
 					<div class="cols col-12">
-						<p class="name1">Грузоперевозки</p>
+						<p class="name-moving-header">Вывоз строительного мусора</p>
 					</div>
 				</div>
 				<div class="row redLine h-tel2" >
@@ -164,7 +164,7 @@
 		<div class="row">
 			<div class="cols col-12">
 				<div class="name-moving">
-					<h1>Грузоперевозки по Черкассам и области.</h1>
+					<h1>Вывоз строительного мусора по Черкассам и области.</h1>
 				</div>
 			</div>
 		</div>
@@ -172,16 +172,16 @@
 			<div class="cols col-12">
 				<div class="name-text-moving">
 					<p>
-						(доставка стройматериалов и вывоз мусора)  
+						(возможна доставка стройматериалов )  
 					</p>
 				</div>
 			</div>
         </div>
         
        <div class="row avto">
-           <div class="cols col-3">
+           <div class="cols col-4">
                 <h3>Газель</h3>
-                <img class="avtoGazel"  src="image/wg_gazel.png" alt="грузоперевозки Газель">
+                <img class="avtoGazel1"  src="image/wg_gazel1.png" alt="грузоперевозки Газель">
 				<p>до 2-х тон (50 мешков)</p>
 				<p>Цена:700 грн.</p>
                 <div class="button">
@@ -191,7 +191,7 @@
 				</div>
 
            </div>
-           <div class="cols col-3">
+           <div class="cols col-4">
                 <h3>ЗИЛ</h3>
                 <img class="avtoZil" src="image/wg_zil.png" alt="грузоперевозки ЗИЛ">
 				<p>до 6-ти тон (от 50 мешков)</p>				
@@ -202,7 +202,7 @@
 					</a>	
 				</div>
            </div>
-           <div class="cols col-3">
+           <div class="cols col-4">
                 <h3>КАМАЗ</h3>
                 <img class="avtoKamaz" src="image/wg_kamaz.png" alt="грузоперевозки Камаз">
 				<p>до 10 тон (от 200 мешков)</p>				
@@ -213,26 +213,56 @@
 					</a>	
 				</div>
            </div> 
-           <div class="cols col-3">
-                <h3>MAN 5т</h3>
-                <img class="avtoMan" src="image/wg_man.png" alt="грузоперевозки Ман">
-			   	<p>перевозка мебели</p>
+           
+	   </div>
+	   
+	   <div class="row">
+			<div class="cols col-12">
+				<div class="name-moving1">
+					<h2>Грузоперевозки по Черкассам и области.</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row avto">
+			<div class="cols col-2"></div>
+			<div class="cols col-4">
+				<h3>Газель</h3>
+				<div class="heightBlockImage">
+					<img class="avtoGazel"  src="image/wg_gazel.png" alt="грузоперевозки Газель">					
+				</div>
+				<p>Цена:300 грн./час</p>
+                <div class="button">
+					<a href="#winGazel">
+					<span>заказать</span>
+					</a>
+				</div>
+			</div>
+			<div class="cols col-4">
+				<h3>MAN 5т</h3>
+				<div class="heightBlockImage">
+					<img class="avtoMan" src="image/wg_man.png" alt="грузоперевозки Ман">
+			   		<!-- <p>перевозка мебели</p> -->
+				</div>
 				<p>Цена:450 грн./час</p>
+                
                 <div class="button">
 					<a href="#winMan">
 					<span>заказать</span>
 					</a>	
 				</div>
            </div>
-       </div>
+			<div class="cols col-2"></div>
+
+
+		</div>
+
+
 <!-- TODO:  -->
        <div class="row andText">
            <div class="cols col-12">
                <p>+ услуги грузчиков по цене от 75грн/час тел.:+38(096)863-53-38 </p>
-           </div>
-           
-    
-           
+           </div>   
        </div>
 		
 		
@@ -283,7 +313,7 @@
 		        <a href="#x" class="overlay" id="win1"></a>
 		        <div class="popup">
 		            <p>Оставьте Ваш телефон<br/>и наш консультант свяжется с вами</p>
-			       <form id="applicationTel" name="applicationTel" action="mail/appTelSnow.php" method="POST" >
+			       <form id="applicationTel" name="applicationTel" action="mail/appMoving.php" method="POST" >
 			       	<p>
 			           <input  name="service" type="hidden" id="service" maxlength="20" value="заказ звонка (страница: грузоперевозки) " />
 			       	</p>
@@ -308,7 +338,7 @@
 				<a href="#x" class="overlay" id="winGazel"></a>
 				<div class="popup">
 					<p>Оставьте Ваш телефон<br/>и наш консультант свяжется с Вами по вопросу грузоперевозки</p>
-					<form id="applicationMoving" name="applicationMoving" action="mail/appMoving.php" method="POST" >
+					<form id="applicationMovingGazel" name="applicationMovingGazel" action="mail/appMoving.php" method="POST" >
 						<p>
 						<input  name="service" type="hidden" id="service" maxlength="20" value="заказ - грузоперевозки Газель " />
 						</p>
@@ -318,7 +348,7 @@
 					<p>
 						<input name="customerName" type="text" id="customerName" maxlength="20" placeholder="Введите Ваше имя" required=”required” />
 						</p>
-						<button id="telButton" type="submit" form="applicationMoving">Отправить </button>
+						<button id="telButton" type="submit" form="applicationMovingGazel">Отправить </button>
 					</form>
 						<a class="close" title="Закрыть" href="#close"></a>
 				</div>
@@ -332,7 +362,7 @@
 				<a href="#x" class="overlay" id="winZil"></a>
 				<div class="popup">
 					<p>Оставьте Ваш телефон<br/>и наш консультант свяжется с Вами по вопросу грузоперевозки</p>
-					<form id="applicationMoving" name="applicationMoving" action="mail/appMoving.php" method="POST" >
+					<form id="applicationMovingZil" name="applicationMovingZil" action="mail/appMoving.php" method="POST" >
 						<p>
 						<input  name="service" type="hidden" id="service" maxlength="20" value="заказ - грузоперевозки Зил " />
 						</p>
@@ -342,7 +372,7 @@
 					<p>
 						<input name="customerName" type="text" id="customerName" maxlength="20" placeholder="Введите Ваше имя" required=”required” />
 						</p>
-						<button id="telButton" type="submit" form="applicationMoving">Отправить </button>
+						<button id="telButton" type="submit" form="applicationMovingZil">Отправить </button>
 					</form>
 						<a class="close" title="Закрыть" href="#close"></a>
 				</div>
@@ -356,7 +386,7 @@
 				<a href="#x" class="overlay" id="winKamaz"></a>
 				<div class="popup">
 					<p>Оставьте Ваш телефон<br/>и наш консультант свяжется с Вами по вопросу грузоперевозки</p>
-					<form id="applicationMoving" name="applicationMoving" action="mail/appMoving.php" method="POST" >
+					<form id="applicationMovingKamaz" name="applicationMovingKamaz" action="mail/appMoving.php" method="POST" >
 						<p>
 						<input  name="service" type="hidden" id="service" maxlength="20" value="заказ - грузоперевозки Камаз " />
 						</p>
@@ -366,7 +396,7 @@
 					<p>
 						<input name="customerName" type="text" id="customerName" maxlength="20" placeholder="Введите Ваше имя" required=”required” />
 						</p>
-						<button id="telButton" type="submit" form="applicationMoving">Отправить </button>
+						<button id="telButton" type="submit" form="applicationMovingKamaz">Отправить </button>
 					</form>
 						<a class="close" title="Закрыть" href="#close"></a>
 				</div>
@@ -380,7 +410,7 @@
 					<a href="#x" class="overlay" id="winMan"></a>
 					<div class="popup">
 						<p>Оставьте Ваш телефон<br/>и наш консультант свяжется с Вами по вопросу грузоперевозки</p>
-						<form id="applicationMoving" name="applicationMoving" action="mail/appMoving.php" method="POST" >
+						<form id="applicationMovingMan" name="applicationMovingMan" action="mail/appMoving.php" method="POST" >
 							<p>
 							<input  name="service" type="hidden" id="service" maxlength="20" value="заказ - грузоперевозки Ман " />
 							</p>
@@ -390,7 +420,7 @@
 						<p>
 							<input name="customerName" type="text" id="customerName" maxlength="20" placeholder="Введите Ваше имя" required=”required” />
 							</p>
-							<button id="telButton" type="submit" form="applicationMoving">Отправить </button>
+							<button id="telButton" type="submit" form="applicationMovingMan">Отправить </button>
 						</form>
 							<a class="close" title="Закрыть" href="#close"></a>
 					</div>
