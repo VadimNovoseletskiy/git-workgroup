@@ -1,0 +1,839 @@
+.h-bg-repair {
+  background: #000 url("../image/main_armchairs.jpg") no-repeat top center;
+  max-width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: 14.2em; }
+
+.name-moving-repair {
+  color: white;
+  font-size: 1.6em;
+  padding-top: 0.2em;
+  font-weight: bold; }
+
+.name-repair h1 {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #3e4156;
+  width: 90%;
+  display: inline-block;
+  font-size: 2.5em; }
+
+.name-text-repair p {
+  margin-bottom: 2em;
+  font-weight: bold;
+  color: #3e4156;
+  width: 90%;
+  font-size: 1.5em;
+  display: inline-block; }
+
+.accessories {
+  margin: 4em 0; }
+  .accessories h3 {
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #3e4156; }
+  .accessories p {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #3e4156; }
+
+.aboutServicesArmchairs {
+  display: inline-block;
+  width: 95%; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+
+.servicesArmchairs h4 {
+  margin: 1em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3e4156; }
+
+.servicesArmchairs ul {
+  display: inline-block;
+  width: 90%;
+  text-align: justify;
+  color: #6f6f82; }
+  .servicesArmchairs ul li {
+    font-size: 1.2em;
+    line-height: 1.5em; }
+
+.accessoriesList {
+  overflow: hidden; }
+  .accessoriesList img {
+    display: inline-block;
+    height: 10em; }
+  .accessoriesList .accessoriesImg_1 img {
+    width: 50%; }
+  .accessoriesList .accessoriesImg_2 img {
+    width: 40%; }
+  .accessoriesList .accessoriesImg_3 img {
+    width: 60%; }
+  .accessoriesList .accessoriesImg_4 img {
+    width: 50%; }
+  .accessoriesList .accessoriesImg_5 img {
+    width: 50%; }
+  .accessoriesList .accessoriesImg_6 img {
+    width: 60%; }
+  .accessoriesList .accessoriesImg_7 img {
+    width: 60%; }
+  .accessoriesList .accessoriesImg_8 img {
+    width: 60%; }
+  .accessoriesList .accessoriesText p {
+    display: inline-block;
+    width: 80%;
+    color: #6f6f82;
+    font-size: 1.2em; }
+
+.endContent {
+  margin-bottom: 4em; }
+
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1.2em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 35%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 30%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 50%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 35%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 40%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 50%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 40%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1.2em;
+      text-align: justify; } }
+
+@media only screen and (min-width: 480px) and (max-width: 629px) {
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1.2em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 30%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 25%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 40%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 25%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 30%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 40%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 45%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 40%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1.3em;
+      text-align: justify; } }
+
+@media only screen and (min-width: 630px) and (max-width: 767px) {
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1.2em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 30%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 25%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 40%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 25%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 30%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 40%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 45%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 3em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 40%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1.3em;
+      text-align: justify; } }
+
+@media only screen and (min-width: 767px) and (max-width: 849px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 80%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 90%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 90%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1em; } }
+
+@media screen and (min-width: 850px) and (max-width: 991px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 80%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 90%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 90%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1em; } }
+
+@media screen and (min-width: 991px) and (max-width: 1023px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 80%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 90%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 90%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1em; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-repair h1 {
+    font-size: 2em;
+    line-height: 1.2em; }
+  .name-text-repair p {
+    margin-bottom: 0.5em;
+    font-size: 1.5em; }
+  .aboutServicesArmchairs p {
+    text-indent: 2em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #6f6f82; }
+  .servicesArmchairs img {
+    margin-top: 1em; }
+  .servicesArmchairs h4 {
+    margin: 1em 0;
+    font-size: 1.2em;
+    width: 85%;
+    display: inline-block; }
+  .servicesArmchairs ul {
+    width: 85%; }
+    .servicesArmchairs ul li {
+      font-size: 1em;
+      line-height: 1.5em; }
+  .accessories {
+    margin: 2em 0; }
+    .accessories h3 {
+      font-size: 1.6em;
+      line-height: 1.2em;
+      display: inline-block;
+      width: 85%; }
+    .accessories p {
+      margin-top: 0.5em;
+      font-size: 1.2em; }
+  .accessoriesList {
+    overflow: hidden; }
+    .accessoriesList img {
+      display: inline-block;
+      height: 10em; }
+    .accessoriesList .accessoriesImg_1 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_1 img {
+        width: 80%; }
+    .accessoriesList .accessoriesImg_2 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_2 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_3 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_3 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_4 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_4 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_5 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_5 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_6 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_6 img {
+        width: 60%; }
+    .accessoriesList .accessoriesImg_7 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_7 img {
+        width: 90%; }
+    .accessoriesList .accessoriesImg_8 {
+      margin-top: 2em; }
+      .accessoriesList .accessoriesImg_8 img {
+        width: 90%; }
+    .accessoriesList .accessoriesText p {
+      display: inline-block;
+      width: 80%;
+      color: #6f6f82;
+      font-size: 1.1em; } }
+
+@media only screen and (min-width: 1199px) and (max-width: 1379px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-snow h1 {
+    font-size: 1.9em; }
+  .name-moving-header {
+    font-size: 2em;
+    padding-top: 0.4em; }
+  .name-text-moving {
+    font-size: 1.6em; }
+  .avtoGazel {
+    width: 50%; }
+  .avtoGazel1 {
+    width: 50%; }
+  .avtoZil {
+    width: 50%; }
+  .avtoKamaz {
+    width: 50%; }
+  .avtoMan {
+    width: 50%; }
+  .button {
+    width: 50%; } }
+
+@media only screen and (min-width: 1379px) and (max-width: 1920px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .name-moving h1 {
+    font-size: 1.9em; }
+  .name-moving-header {
+    font-size: 2em;
+    padding-top: 0.4em; }
+  .name-text-moving {
+    font-size: 1.6em; }
+  .avtoGazel {
+    width: 45%; }
+  .avtoGazel1 {
+    width: 45%; }
+  .avtoZil {
+    width: 45%; }
+  .avtoKamaz {
+    width: 45%; }
+  .avtoMan {
+    width: 45%; }
+  .button {
+    width: 55%; } }

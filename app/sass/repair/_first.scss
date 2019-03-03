@@ -1,0 +1,147 @@
+.h-bg-repair{
+	background:#000 url('../image/main_armchairs.jpg') no-repeat top center;
+	max-width: 100%;
+	background-size: cover;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	height: 14.2em;
+}
+
+.name-moving-repair{
+    color: white;
+    font-size: 1.6em;
+    padding-top: 0.2em;
+    font-weight: bold;
+}
+
+.name-repair h1{
+    font-weight: bold;
+    margin-top:  1em;
+    margin-bottom: 0.5em;
+    color: #3e4156;
+    width: 90%; 
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.name-text-repair p{
+    margin-bottom:  2em;
+    font-weight: bold;
+    color: #3e4156;
+    width: 90%;
+    font-size:1.5em;
+    display: inline-block;
+}
+
+.accessories{
+    margin: 4em 0;
+    h3{
+        font-size: 1.9em;
+        font-weight: bold;
+        color: #3e4156;
+    }
+    p{
+        margin-top: 1em;
+        font-size: 1.5em;
+        color: #3e4156;
+
+    }
+}
+
+.aboutServicesArmchairs{
+    display: inline-block;
+    width: 95%;
+
+
+    p{
+        text-indent: 2em;
+        margin-top: 1em;
+        font-size: 1.4em;
+        line-height: 1.5em;
+        text-align: justify;
+        color: #6f6f82;
+    }
+}
+
+.servicesArmchairs{
+
+
+    h4{
+        margin:1em 0;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #3e4156;
+    }
+
+    ul{
+        display: inline-block;
+        width: 90%;
+        text-align: justify;
+        color: #6f6f82;
+
+
+        li{
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+    }
+}
+
+.accessoriesList{
+
+    overflow: hidden;
+
+    img{
+        display:inline-block;
+        height: 10em;
+    }
+
+    .accessoriesImg_1{
+        img{width: 50%;}
+    }
+
+    .accessoriesImg_2{
+        img{width: 40%;}
+    }
+
+    .accessoriesImg_3{
+        img{width: 60%;}
+    }
+
+    .accessoriesImg_4{
+        img{width: 50%;}
+    }
+
+    .accessoriesImg_5{
+        img{width: 50%;}
+    }
+
+    .accessoriesImg_6{
+        img{width: 60%;}
+    }
+
+    .accessoriesImg_7{
+        img{width: 60%;}
+    }
+
+    .accessoriesImg_8{
+        img{width: 60%;}
+    }
+
+
+    .accessoriesText{
+
+        p{
+            display: inline-block;
+            width: 80%;
+            color: #6f6f82;
+            font-size: 1.2em;
+        }
+    }
+    
+} 
+
+.endContent{
+    margin-bottom: 4em;
+}
+
